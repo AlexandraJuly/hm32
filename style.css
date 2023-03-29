@@ -1,0 +1,116 @@
+.search {
+    padding: 18px;
+    text-align: center;
+    background-color: rgb(200, 131, 202);
+    border-radius: 20px;
+    border-color: rgb(210, 160, 240);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.search__input {
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border-color: rgb(210, 160, 240);
+}
+
+.search__input::placeholder {
+    color: rgb(28, 14, 44);
+    text-align: center;
+}
+
+.search__button {
+    font-size: 15px;
+    border-radius: 15px;
+    border-color: rgb(210, 160, 240);
+    background-color: rgb(86, 73, 87);
+}
+
+.search__error {
+    content: 'виявленна помилка';
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 10px;
+}
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+}
+
+.post_block {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(200, 131, 202);
+    border-radius: 20px;
+    border-color: rgb(210, 160, 240);
+    width: 45%;
+}
+
+.post_block__title{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.post_block__title:first-letter{
+    text-transform: uppercase;
+}
+
+.post_block__content {
+    }
+    .post_block__content:first-letter{
+        text-transform: uppercase;
+    }
+
+    .post_block__author {
+        text-align: start;
+        font-style: italic;
+        background-color: rgb(28, 14, 44);
+    }
+
+    .post_block__button {
+        font-size: 20px;
+        border-radius: 20px;
+        border-color: rgb(210, 160, 240);
+        padding: 10px;
+        background-color: rgb(86, 73, 87);
+    }
+
+
+.comments_block {
+    max-width: 400px;
+}
+    .comments_block__wrapper {
+        background-color: rgb(200, 131, 202);
+        border-radius: 20px;
+        border-color: rgb(210, 160, 240);
+        padding: 15px;
+        margin-bottom: 10px;
+
+    }
+    .comments_block__title {
+        margin: 0 auto;
+        font-style: italic;
+        font-weight: 600;
+    }
+        .comments_block__title:first-letter{
+            text-transform: uppercase;
+        }
+    .comments_block__content {
+        margin: 10px;
+    }
+        .comments_block__content:first-letter{
+            text-transform: uppercase;
+        }
+    .comments_block__mail {
+        margin: 0 auto;
+        font-style: italic;
+        color: rgb(28, 14, 44);
+    }
